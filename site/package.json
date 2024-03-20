@@ -1,0 +1,41 @@
+{
+  "name": "reactthreefiber",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.97.3",
+    "@react-three/fiber": "^8.15.16",
+    "@react-three/lightmap": "^0.0.8",
+    "@react-three/postprocessing": "^2.15.13",
+    "@react-three/xr": "^5.7.1",
+    "fastnoise-lite": "^1.1.0",
+    "html2canvas": "^1.4.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
+    "r3f-form": "^3.0.2",
+    "randomcolor": "^0.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "react-use-websocket": "^4.7.0",
+    "rita": "^3.1.1",
+    "sort-by": "^1.2.0",
+    "troika-three-text": "^0.49.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "sass": "^1.70.0",
+    "vite": "^5.0.12"
+  }
+}
